@@ -164,7 +164,7 @@ jobs:
           kernel_sign: ${{ inputs.kernel_sign }}
           kernel_config: ${{ inputs.kernel_config }}
           compress_format: ${{ inputs.compress_format }}
-          kernel_patch: kernel-patch/beta
+          kernel_patch: ${{ inputs.kernel_patch }}
           
       - name: Upload Kernel to Release
         uses: ncipollo/release-action@main
