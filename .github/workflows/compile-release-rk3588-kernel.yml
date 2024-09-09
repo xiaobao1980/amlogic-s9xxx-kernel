@@ -86,6 +86,7 @@ on:
         type: choice
         options:
           - kernel-config/release/rk3588
+          - kernel-config/release/rk3588-vendor
           - false
 
 env:
