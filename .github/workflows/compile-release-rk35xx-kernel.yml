@@ -86,6 +86,7 @@ on:
         type: choice
         options:
           - kernel-config/release/rk35xx
+          - kernel-config/release/rk35xx-vendor
           - false
 
 env:
