@@ -165,7 +165,7 @@ jobs:
           kernel_sign: ${{ inputs.kernel_sign }}
           kernel_config: ${{ inputs.kernel_config }}
           compress_format: ${{ inputs.compress_format }}
-          kernel_patch: kernel-patch/linux-5.10.y-rk35xx
+          kernel_patch: kernel-patch/diy
           auto_patch: true
       - name: Upload Kernel to Release
         uses: ncipollo/release-action@main
